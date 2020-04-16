@@ -1,0 +1,12 @@
+{
+"XSA_ADMIN-s120guqc31rb2c02-TTT-hdi_db": {
+
+	"object_owner": {
+		"container_roles": ["TTT.db::admin#"]
+	},
+	"application_user": {
+		"container_roles": ["TTT.db::admin#"]
+	}
+
+}
+}

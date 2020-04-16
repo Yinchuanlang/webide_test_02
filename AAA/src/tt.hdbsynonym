@@ -1,0 +1,9 @@
+{
+  "mta88.AAA::Synonym_0": {
+    "target": {
+      "object": "TTT.db::TB",
+      "schema": "TTT_HDI_DB_1",
+      "database": "SYSTEMDB"
+    }
+  }
+}

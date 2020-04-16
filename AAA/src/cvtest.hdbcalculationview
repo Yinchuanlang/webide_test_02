@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="mta88.AAA::cvtest" applyPrivilegeType="NONE" dataCategory="CUBE" schemaVersion="3.0" outputViewType="Aggregation" cacheInvalidationPeriod="NONE" enforceSqlExecution="false">
+<descriptions defaultDescription="cvtest"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="mta88.AAA::Synonym_0">
+    <resourceUri>mta88.AAA::Synonym_0</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="mta88.AAA::Synonym_0">
+  <attributes>
+    <attribute id="elem_1" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="elem_1"/>
+      <keyMapping columnObjectName="Synonym_0" columnName="elem_1"/>
+    </attribute>
+    <attribute id="elem_2" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="elem_2"/>
+      <keyMapping columnObjectName="Synonym_0" columnName="elem_2"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures>
+    <measure id="elem_3" order="3" aggregationType="count" measureType="simple">
+      <descriptions defaultDescription="elem_3"/>
+      <measureMapping columnObjectName="Synonym_0" columnName="elem_3"/>
+    </measure>
+  </baseMeasures>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+  <localDimensions/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>
